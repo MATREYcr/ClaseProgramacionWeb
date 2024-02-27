@@ -1,0 +1,168 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Color de fondo del cuerpo */
+    color: white; /* Color del texto */
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.divSuperior {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bloqueSuperior {
+    flex: 1;
+    height: 50px;
+}
+
+.bloque1 {
+    background-color: aqua;
+}
+
+.bloque2 {
+    background-color: lightblue;
+}
+
+.bloque3 {
+    background-color: purple;
+}
+
+.bloque4 {
+    background-color: darkblue;
+}
+
+.bloque5 {
+    background-color: yellow;
+}
+
+.bloque6 {
+    background-color: red;
+}
+.container {
+    display: flex;
+    margin: 20px;
+    border: 3px solid red;
+    margin-top: 10vh;
+    height: 75vh;
+
+}
+
+.container div{
+    padding: 0;
+    margin: 0;
+}
+
+.columna {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.columna1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 0; /* Elimina el margen derecho */
+}
+
+.caja {
+    height: 25%; /* Ajusta la altura de cada caja al 25% del espacio disponible en columna1 */
+    margin-bottom: 0; /* Elimina el margen inferior entre las cajas */
+}
+
+.caja1 {
+    background-color: aqua;
+}
+
+.caja2 {
+    background-color: blue;
+}
+
+.caja3 {
+    background-color: purple;
+}
+
+.caja4 {
+    background-color: darkblue;
+}
+
+.columna2 {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.caja5 {
+    background-color: yellow;
+    height: 50%; /* Ocupa el 50% del espacio disponible en columna2 */
+    margin-bottom: 10px; /* Agrega espacio entre las cajas */
+}
+
+.caja6 {
+    background-color: red;
+    height: 50%; /* Ocupa el 50% del espacio disponible en columna2 */
+    margin-bottom: 0; /* Elimina el margen inferior */
+}
+/* .container{
+    margin: 20px; 
+    padding: 20px; 
+    box-shadow: 0 0 0 2px #ff0000; 
+    height: 500px;
+    margin-top: 150px;
+
+    flex: 1; 
+    padding: 20px; 
+    box-sizing: border-box; 
+} */
+
+/* .containerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+} */
+
+/* .bloqueLeft1{
+    height: 120px;
+    background-color: aqua;
+}
+
+.bloqueLeft2{
+    height: 120px;
+    background-color: blue;
+}
+
+.bloqueLeft3{
+    height: 200px;
+    background-color: violet;
+}
+.bloqueLeft4{
+    height:70px;
+    background-color: blue;
+}
+
+
+
+.containerRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+}
+.bloqueRight1{
+    height: 120px;
+    background-color: aqua;
+} */
+
