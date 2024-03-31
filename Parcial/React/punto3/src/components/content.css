@@ -1,0 +1,108 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #969696; 
+  }
+  
+
+  .select-container {
+    margin-bottom: 30px; 
+  }
+  
+
+  .select-container select {
+    width: 300px; 
+    padding: 10px; 
+    font-size: 16px; 
+  }
+
+  .selected-character-container {
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 70px;
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  
+  .selected-character-container img {
+    max-width: 270px; 
+    margin-bottom: 20px;
+  }
+/* Estilos para el botón "Add Contact" */
+
+/* Estilos para el formulario de agregar contacto */
+.add-contact-form {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.add-contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.add-contact-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-contact-form button[type="submit"],
+.add-contact-form button[type="button"] {
+  background-color: #1c1c1c ;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.add-contact-form .button-group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-contact-form h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-contact-btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.select-container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  padding: 10px;
+  background-color: white;
+}
